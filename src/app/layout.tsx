@@ -16,6 +16,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Mango Cat Hotel Sukhumvit" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mango Cat Hotel Sukhumvit</title>
+        {/* <link rel="preconnect" href="https://fonts.gstatic.com" /> */}
+        {/* <link rel="stylesheet" href={inter} /> */}
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link rel="icon" href="/logo.png" />
+      </head>
       <body >{children}</body>
     </html>
   )

@@ -8,9 +8,9 @@ import Footer from '@/components/footer'
 import Hero from '@/components/hero'
 import Map from '@/components/map'
 import Navbar from '@/components/navbar'
+import Pricing from '@/components/pricing'
 import Reviews from '@/components/reviews'
 import Support from '@/components/support'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -34,6 +34,9 @@ export default function Home() {
         </section>
         <section className='container'>
           <Support />
+        </section>
+        <section className='container'>
+          <Pricing />
         </section>
         <section className='container'>
           <Reviews />

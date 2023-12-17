@@ -36,7 +36,7 @@ const Conditions = (props: Props) => {
                             >
                                 {benefits.map((benefit) => (
                                     <li key={benefit} className="flex gap-x-3">
-                                        <CheckCircleIcon className="h-7 w-5 flex-none text-primary-yellow" aria-hidden="true" />
+                                        <CheckCircleIcon className="h-7 w-5 flex-none text-success-default" aria-hidden="true" />
                                         {benefit}
                                     </li>
                                 ))}
